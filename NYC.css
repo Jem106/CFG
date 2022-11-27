@@ -1,0 +1,60 @@
+header {
+    padding: 30px;
+      background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  main {
+    text-align: center;
+    flex-wrap: flex-wrap;
+  }
+  
+  .row { 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main {
+    flex: 60%;
+    background-color: pink;
+    padding: 30px;
+  }
+  
+  .side {
+    -ms-flex: 30%; 
+    flex: 30%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+   .nobull {
+    list-style-type: none;
+     text-align: left;
+   }
+  
+  .footer {
+     padding: 20px;
+    text-align: left;
+    background: black; 
+    color: white;
+  }
